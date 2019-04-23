@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+}
+*{
+    background-color: #f3f5f7;
+}
+.mid{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header{
+    padding-top: 30px;
+    width: 1300px;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav-bar a{
+    font-size:  18px;
+    color: black;
+    width: 30%;
+  
+     
+}
+.header .nav-bar a:hover{
+    color: red;
+    padding-bottom: 7px;
+    border-bottom: 5px solid #66ccff;
+}
