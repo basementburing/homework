@@ -3,6 +3,7 @@ a {
 }
 *{
     background-color: #f3f5f7;
+    box-sizing: border-box;
 }
 .mid{
     margin-left: 10px;
@@ -15,6 +16,7 @@ a {
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header .nav-bar a{
     font-size:  18px;
@@ -27,4 +29,113 @@ a {
     color: red;
     padding-bottom: 7px;
     border-bottom: 5px solid #66ccff;
+}
+.header .sreach-bar {
+	width: 410px;
+	height: 40px;
+	background-color: purple;
+	display: flex;
+    flex-direction: row;
+}
+.header .sreach-bar input {
+	width: 361px;
+	height: 40px;
+	border: 1px solid #00a4ff;
+	outline: none;  
+	padding-left: 10px;
+	
+}
+.header .sreach-bar button {
+	width: 49px;
+	height: 40px;
+	border: 0;
+    outline: none;
+    cursor:pointer;
+	background: url(../images/fa-search.png) no-repeat;
+}
+.header .presonal {
+    height: 40px;
+    line-height: 40px;
+
+}
+.header .presonal div{
+        position: relative;
+        float: left;
+        font-size: 13px;
+        padding: 0 20px;
+        color: gray;
+}
+.header .presonal span img {
+	border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+	transition: all 0.6s;
+}
+.header .presonal span img:hover {
+	transform: rotate(-360deg);
+}
+.products{
+    
+    padding-top :10px;
+    margin: 0 auto;
+}
+.pro-hd{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+}
+.pro-hd h4{
+    font-size: 20px;
+}
+.pro-hd a{
+    padding-top:30px;
+    color:black;
+    padding-right:10px;
+    font-size: 12px;
+}
+.pro-hd a:hover{
+    color:red;
+}
+.lots {
+    margin: 0 auto;
+    width: 1300px;
+    height: 540;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lots .sum{
+    overflow: hidden;
+    margin-right: 10px;
+    margin-bottom:10px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    font-size:14px
+}
+.pro-title {
+	width: 185px;
+	margin: 20px auto;
+	font-size: 14px;
+    color: #050505;
+    background-color: #FFF;
+    
+}
+
+.sum p,span{
+    background: #fff;
+    color: #ff7c2d;
+    font-size: 15px;
+}
+.sum p{
+    color: #999;
+    width: 185px;
+    font-size:10px;
+	margin: 20px auto;
+}
+.lots .sum:hover {
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+	transform: translateY(-10px);
 }
